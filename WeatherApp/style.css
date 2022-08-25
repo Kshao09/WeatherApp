@@ -16,7 +16,7 @@ h1 {
 }
 .weather {
     width: 650px;
-    height: 600px;
+    height: 650px;
     margin: auto;
     margin-top: 200px;
     background-color: black;
@@ -82,8 +82,12 @@ h1 {
     overflow: hidden;
 }
 
-.forecast-info {
+.forecast h1 {
     font-weight: normal;
     margin-top: 10px;
+}
+
+.description {
+    text-transform: capitalize;
 }
 
